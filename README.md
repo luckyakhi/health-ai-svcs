@@ -4,7 +4,7 @@ Spring Boot 3.3 REST API implementing the provided OpenAPI for task management w
 
 ## Run
 
-Requirements: Java 17+ and Maven.
+Requirements: Java 21+ and Maven.
 
 ```
 mvn spring-boot:run

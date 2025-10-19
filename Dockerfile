@@ -1,7 +1,7 @@
 # Simple runtime image expecting a pre-built Spring Boot JAR in target/
 # Build JAR locally first: mvn -DskipTests package
 
-FROM eclipse-temurin:17-jre-jammy
+FROM eclipse-temurin:21-jre-jammy
 
 WORKDIR /app
 

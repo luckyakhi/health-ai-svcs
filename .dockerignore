@@ -1,0 +1,18 @@
+# Ignore VCS and IDE files
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# Terraform and infra
+infra/
+
+# Maven target except the built JAR(s)
+target/*
+!target/*.jar
+
+# Misc
+node_modules/
+*.iml
+*.log
+

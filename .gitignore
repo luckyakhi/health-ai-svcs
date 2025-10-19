@@ -1,0 +1,74 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+logs/
+*.log
+*.log.*
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+dependency-reduced-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar.sha256
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle (if present)
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.loadpath
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+.nb-gradle/
+
+# Databases (H2, etc.)
+*.h2.db
+*.mv.db
+
+# Test reports / coverage
+jacoco.exec
+.jacoco/
+site/
+surefire-reports/
+failsafe-reports/
+
+# Spring Boot
+spring.log
+
+# Env files
+.env
+.env.*
+
+#Terraform
+.terraform

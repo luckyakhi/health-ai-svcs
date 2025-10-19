@@ -1,0 +1,36 @@
+server:
+  port: 4000
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:tasksdb;DB_CLOSE_DELAY=-1;MODE=LEGACY
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+    defer-datasource-initialization: false
+  sql:
+    init:
+      mode: always
+      continue-on-error: true
+      encoding: UTF-8
+  h2:
+    console:
+      enabled: true
+
+logging:
+  level:
+    org.hibernate.SQL: warn
+    org.springframework.web: info
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
